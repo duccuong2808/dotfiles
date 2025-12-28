@@ -30,6 +30,7 @@ After installation, all `.zsh` files in the `~/.zsh` directory will be automatic
 ## Available Configurations
 - `alias.zsh`: contains common aliases
 - `gitconfig`: git configuration
+- `constant_secret.zsh.sample`: sample file for secret environment variables (API keys, tokens) and configuration variables (`PROXY_PROVIDER`, `USE_BUN`). Copy to `constant_secret.zsh` and customize - this file is gitignored for security.
 
 Some available gitconfig configurations (read more at [gitconfig] - comments added):
 - aliases for some git commands

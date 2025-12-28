@@ -29,6 +29,7 @@ Sau khi cài đặt, tất cả các file `.zsh` trong thư mục `~/.zsh` sẽ 
 ## Cấu hình có sẵn
 - `alias.zsh`: chứa các alias thông dụng
 - `gitconfig`: cấu hình git
+- `constant_secret.zsh.sample`: file mẫu chứa biến môi trường bí mật (API keys, tokens) và biến cấu hình (`PROXY_PROVIDER`, `USE_BUN`). Copy thành `constant_secret.zsh` và tùy chỉnh - file này được gitignore để bảo mật.
 
 Một số cấu hình gitconfig có sẵn (đọc thêm tại [gitconfig] - đã thêm comment):
 - alias một số git commands
