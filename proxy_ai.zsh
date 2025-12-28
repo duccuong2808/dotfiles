@@ -1,8 +1,11 @@
 # ProxyPal - Claude Code Configuration
 # Set to "true" to enable, "false" to disable
 CLIProxy="true"
-# PROXY_PROVIDER="ccs" # https://github.com/kaitranntt/ccs/
-PROXY_PROVIDER="proxypal" # https://github.com/heyhuynhgiabuu/proxypal
+
+# css or proxypal
+# css = https://github.com/kaitranntt/ccs/
+# proxypal = https://github.com/heyhuynhgiabuu/proxypal
+: ${PROXY_PROVIDER:="proxypal"}
 
 if [ "$CLIProxy" = "true" ]; then
   if [ "$PROXY_PROVIDER" = "ccs" ]; then
