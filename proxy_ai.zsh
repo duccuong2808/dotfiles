@@ -29,5 +29,5 @@ if [ "$CLIProxy" = "true" ]; then
   export ANTHROPIC_DEFAULT_OPUS_MODEL="gemini-claude-opus-4-5-thinking"
   # export ANTHROPIC_DEFAULT_SONNET_MODEL="gemini-claude-sonnet-4-5"
   export ANTHROPIC_DEFAULT_SONNET_MODEL="gemini-claude-sonnet-4-5-thinking"
-  export ANTHROPIC_DEFAULT_HAIKU_MODEL="claude-haiku-4-5-20251001"
+  export ANTHROPIC_DEFAULT_HAIKU_MODEL="gemini-3-flash-preview"
 fi
